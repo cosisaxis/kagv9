@@ -727,6 +727,18 @@ section {
   color: #29d9d5;
 }
 
+.scrolltop{
+  position: fixed;
+  bottom: 30px;
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
